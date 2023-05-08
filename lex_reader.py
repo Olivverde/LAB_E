@@ -438,7 +438,7 @@ class Lexer(object):
             
 
 
-path = 'inputs/slr-2.yal'
+path = 'inputs/slr-1.yal'
 L = Lexer()
 patterns, tokens  = L.reader(path)
 L.pre_load(path)
